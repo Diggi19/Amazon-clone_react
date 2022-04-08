@@ -1,0 +1,41 @@
+.item__container {
+  width: 95%;
+  height: 200px;
+  padding: 0.8em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.2em;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.item__img img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.item__text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-bottom: 1em;
+}
+.item__btn {
+  width: 100%;
+}
+.item__btn button {
+  width: 80%;
+  margin-left: 1.5em;
+  max-width: 200px;
+  padding: 0.4em;
+  outline: none;
+  border: none;
+  background-color: rgb(255, 153, 0);
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.item__btn button:hover {
+  cursor: pointer;
+  background-color: rgb(235, 145, 10);
+}

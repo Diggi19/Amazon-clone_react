@@ -1,0 +1,123 @@
+.auth__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+}
+.auth__main {
+  max-width: 300px;
+  width: 50%;
+  margin: auto;
+}
+.auth__logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.auth__logo img {
+  width: 250px;
+  height: 70px;
+  margin-left: 2.5em;
+  object-fit: contain;
+}
+.auth__form {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  padding: 1em;
+}
+.form__title {
+  width: 90%;
+  margin-bottom: -1.5em;
+  margin: auto;
+}
+.form__title h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 0em;
+}
+.form__title h4 {
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-top: 0.5em;
+}
+.form__input {
+  width: 90%;
+  margin: -1em auto auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inputs {
+  margin-top: 0em;
+}
+.form__input h4 {
+  margin-bottom: 0em;
+}
+.form__input input {
+  margin-top: 0em;
+  width: 100%;
+}
+
+.auth__btn {
+  width: 100%;
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth__btn button {
+  width: 90%;
+  margin-left: 0.5em;
+  padding: 0.4em;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  background-color: rgb(255, 153, 0);
+}
+.auth__btn button:hover {
+  cursor: pointer;
+  background-color: rgb(224, 138, 8);
+}
+.auth__terms {
+  width: 90%;
+  margin: auto;
+}
+.auth__terms h3 {
+  text-align: left;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: rgba(146, 142, 142, 0.753);
+}
+
+.auth__sub {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sepeartor {
+  width: 90%;
+  height: 2px;
+  background-color: rgba(156, 155, 155, 0.884);
+  margin: 4em auto auto auto;
+  box-shadow: 0px 6px 10px rgba(71, 71, 71, 0.644);
+}
+.form__links {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(240, 238, 238, 0.247);
+}
+.form__links h3 {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgb(54, 54, 247);
+}
